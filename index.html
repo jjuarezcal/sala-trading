@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/mode.css">
     <link rel="stylesheet" href="./css/extensions.css">
+    <!-- css.gg -->
+    <link href="https://css.gg/css" rel="stylesheet" />
 
     <title>Sala de trading</title>
 </head>
 
 <body>
+    <!-- Contenedor principal -->
 
     <div class="content">
+
+        <!-- header principal -->
         <header class="header">
             <div class="header__logo">
                 <img src="./images/logo-sala-trading.png" alt="" class="header__img"> <span class="header__title">Sala de trading</span>
@@ -22,12 +27,13 @@
             <div class="header__menu menu">
 
                 <ul class="menu__ul">
-                    <li class="menu__li">item 1</li>
-                    <li class="menu__li">item 2</li>
-                    <li class="menu__li">item 3</li>
-                    <li class="menu__li">item 4</li>
+                    <li class="menu__li"><i class="menu__i gg-arrange-back"></i>fundamental</li>
+                    <li class="menu__li"><i class="menu__i gg-abstract"></i>técnico</li>
+                    <li class="menu__li"><i class="menu__i gg-terminal"></i>algorítmico</li>
+                    <li class="menu__li"><i class="menu__i gg-align-bottom"></i>armónico</li>
+                    <li class="menu__li"><i class="menu__i gg-align-center"></i>eliot</li>
+                    <li class="menu__li"><i class="menu__i gg-align-left"></i>wyckoff</li>
                 </ul>
-
 
                 <label class="header__switch">
                     <input type="checkbox"  id="toggleMode">
@@ -36,9 +42,27 @@
 
             </div>
         </header>
-        <main class="main">contenido</main>
+        <!-- fin del header principal -->
+
+        <!-- main general conenedor central -->
+
+        <main class="main">
+            <aside class="main__aside">menu principal</aside>
+            <section class="main__section">contenedor central</section>
+            <aside class="main__aside--derecha">sidebar</aside>
+        </main>
+
+        <!-- fin del main general conenedor central -->
+
+        <!-- pie principal -->
+
         <footer class="footer">contenido</footer>
+
+        <!-- fin pie principal -->
+
     </div>
+
+    <!-- Fin del contenedor principal -->
 
     <script src="./js/darkmode.js"></script>
 </body>
