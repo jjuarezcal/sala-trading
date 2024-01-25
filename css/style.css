@@ -63,9 +63,26 @@ body {
     align-items: center;
 }
 
-.menu__li:a {
-    background-color: var(--background-color);
+.menu__li a {
+    color: var(--color);
     border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/*
+.menu__li:hover {
+    background-color: var(--color);
+    color: var(--background-color);
+    border-radius: 20px;
+}
+*/
+
+.menu__li:hover {
+    background-color: #424244;
+    color: var(--background-color);
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 .menu__i {
