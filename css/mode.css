@@ -3,32 +3,31 @@ Juan rest basic 2022 (◕‿◕)
 */
 
 
-/* Estilos por defecto (modo claro) */
+/* Estilos por defecto (modo oscuro) */
 
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 
-
-/* Estilos para el modo oscuro */
+/* Estilos para el modo claro 
 
 @media (prefers-color-scheme: light) {
-    .aside__section {
-        background-color: rgb(42, 53, 53);
+    body {
+        background-color: #ffffff;
+        color: black;
     }
 }
-
+*/
 
 
 /* Estilos para modo oscuro (cambiado manualmente) */
 
-[data-theme='dark'] {
-
+[data-theme='light'] {
     .content {
-        background-color: #333;
-        color: white;
+        background-color: #ffffff;
+        color: black;
     }
     .aside__section {
         background-color: rgb(18, 70, 70);
@@ -40,5 +39,4 @@ body {
     .header__img {
         box-shadow: 2px 2px #eee;
     }
-
 }
