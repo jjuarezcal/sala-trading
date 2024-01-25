@@ -1,3 +1,7 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .content {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
@@ -8,10 +12,22 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #424244;
+    background-color: #2e2e30;
 }
 
 .header__img {
-    width: 40%;
+    width: 15%;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__title {
+    color: #6f6f73;
+    font-size: large;
 }
 
 .header__menu {
@@ -19,6 +35,7 @@
     grid-template-columns: 3fr 1fr;
     gap: 20px;
     justify-items: end;
+    align-items: center;
 }
 
 .header__button {
@@ -44,4 +61,6 @@
 
 .footer {
     display: grid;
+    border-top: 1px solid #424244;
+    background-color: #2e2e30;
 }

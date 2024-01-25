@@ -6,7 +6,7 @@ Juan rest basic 2022 (◕‿◕)
 /* Estilos por defecto (modo oscuro) */
 
 body {
-    background-color: black;
+    background-color: #1e1f21;
     color: white;
 }
 
@@ -29,6 +29,13 @@ body {
         background-color: #ffffff;
         color: black;
     }
+    .header {
+        border-bottom: 1px solid #cececf;
+        background-color: #ffffff;
+    }
+    .header__img {
+        box-shadow: 2px 2px #eee;
+    }
     .aside__section {
         background-color: rgb(18, 70, 70);
     }
@@ -36,7 +43,8 @@ body {
     .footer__li {
         color: black;
     }
-    .header__img {
-        box-shadow: 2px 2px #eee;
+    .footer {
+        border-top: 1px solid #cececf;
+        background-color: #ffffff;
     }
 }

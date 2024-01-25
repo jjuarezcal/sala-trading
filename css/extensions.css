@@ -3,8 +3,9 @@
 .header__switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 40px;
+    height: 24px;
+    margin-right: 10px;
 }
 
 
@@ -34,8 +35,8 @@
 .header__slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 16px;
+    width: 16px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -47,17 +48,17 @@
 }
 
 input:checked+.header__slider {
-    background-color: #313233;
+    background-color: #4e5052;
 }
 
 input:focus+.header__slider {
-    box-shadow: 0 0 1px #313233;
+    box-shadow: 0 0 1px #515355;
 }
 
 input:checked+.header__slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
 }
 
 
