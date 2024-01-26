@@ -283,6 +283,16 @@ body {
     width: 14%;
 }
 
+.progress__h3 {
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.progress__description {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
 
 /* FIN BARRAS PROGRESO */
 
