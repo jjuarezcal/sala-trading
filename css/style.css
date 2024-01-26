@@ -1,17 +1,19 @@
 :root {
     --background-color: #2e2e30;
+    --background-color-secondary: #424244;
+    --background-color-ligth: #e7e7e9;
     --color: #6f6f73;
     --buy: #c40404;
     --sell: #038514;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--tipo-principal);
 }
 
 .content {
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: auto 2fr 1fr;
 }
 
 .header {
@@ -55,11 +57,12 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu__li {
     display: flex;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin: 0px 5px;
     color: var(--color);
     align-items: center;
@@ -100,15 +103,14 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-content: center;
     justify-content: center;
-    align-items: center;
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    padding: 20px;
 }
 
-.search {}
-
-.search__form {}
+.aside__search {
+    padding: 20px 0px;
+}
 
 .search__input {
     background-color: var(--background-color);
@@ -118,13 +120,66 @@ body {
 }
 
 .search__input:focus {
-    border-color: (--buy);
     transition: .4s ease;
 }
 
 .main__section {}
 
 .main__aside--derecha {}
+
+.aside__menu {}
+
+.aside__ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside__a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    color: var(--color);
+    transition: 0.6s ease-in-out;
+}
+
+.aside__i {
+    margin-right: 8px;
+}
+
+.aside__a:hover {
+    color: white;
+    transform: scale(1.02);
+}
+
+.aside__block {
+    background-color: var(--background-color-secondary);
+    border-radius: 5px;
+    padding: 20px;
+    color: var(--background-color-ligth);
+    margin: 20px 0px;
+}
+
+.block__content {}
+
+.block__title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.block__i {
+    margin-right: 10px;
+}
+
+.block__ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.block__li {
+    padding: 5px 2px;
+}
 
 .footer {
     display: grid;

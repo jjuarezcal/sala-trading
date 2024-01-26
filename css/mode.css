@@ -47,4 +47,14 @@ body {
         border-top: 1px solid #cececf;
         background-color: #ffffff;
     }
+    .main__aside {
+        background-color: var(--background-color-ligth);
+    }
+    .search__input {
+        background-color: var(--background-color-ligth);
+    }
+    .aside__block {
+        background-color: var(--background-color-ligth);
+        color: var(--color);
+    }
 }
