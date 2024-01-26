@@ -76,15 +76,6 @@ body {
     text-decoration: none;
 }
 
-
-/*
-.menu__li:hover {
-    background-color: var(--color);
-    color: var(--background-color);
-    border-radius: 20px;
-}
-*/
-
 .menu__li:hover {
     background-color: #424244;
     color: var(--background-color);
@@ -211,7 +202,7 @@ body {
         background-color: var(--background-color)
     }
     to {
-        background-color: #00CCCC
+        background-color: #00CCCC;
     }
 }
 
