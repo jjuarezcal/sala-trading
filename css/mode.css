@@ -33,9 +33,6 @@ body {
         border-bottom: 1px solid #cececf;
         background-color: #ffffff;
     }
-    .header__img {
-        box-shadow: 2px 2px #eee;
-    }
     .aside__section {
         background-color: rgb(18, 70, 70);
     }
@@ -56,5 +53,8 @@ body {
     .aside__block {
         background-color: var(--background-color-ligth);
         color: var(--color);
+    }
+    .container__userdata {
+        background-color: var(--background-color-ligth);
     }
 }

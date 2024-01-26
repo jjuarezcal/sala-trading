@@ -28,7 +28,8 @@ body {
 }
 
 .header__img {
-    width: 15%;
+    width: 60px;
+    padding: 10px;
 }
 
 .header__logo {
@@ -184,26 +185,52 @@ body {
 
 .container__userdata {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 20px;
     background-color: var(--background-color);
     padding: 10px;
     border-radius: 10px;
     margin: 20px 0px;
-    background-image: url(../images/Captura.JPG);
-    background-position: left center;
+    background-image: url(../images/border-left.png);
+    background-position: top right;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.userdata__avatar {
-    background-color: var(--background-color-secondary);
-    padding: 50px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    box-shadow: 2px 2px 8px 2px #009688;
-    margin-left: 60px;
+.container__userdata:hover {
+    /* background-color: #00CCCC; */
+    background-image: url(../images/border-left-on.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {
+        background-color: var(--background-color)
+    }
+    to {
+        background-color: #00CCCC
+    }
+}
+
+.userdata__name h4 {
+    color: var(--background-color-ligth);
+    font-size: large;
+}
+
+.userdata__name p {
+    padding-bottom: 10px;
+}
+
+.userdata__ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userdata__ul>li {
+    margin: 0px 10px;
 }
 
 .userdata__i {
