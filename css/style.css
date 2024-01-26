@@ -187,18 +187,27 @@ body {
 }
 
 .container__progress {
-    border-bottom: 1px dotted var(--color);
     margin: 40px 0px;
-    padding: 30px 0px;
-    animation: border-dance 4s infinite linear;
 }
 
-@keyframes border-dance {
+.container__line {
+    padding: 10px 0px;
+    border-bottom: 1px dotted var(--color);
+    animation: border-animation 4s infinite linear;
+}
+
+@keyframes border-animation {
     0% {
-        background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.3;
     }
     100% {
-        background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+        opacity: 0.8;
     }
 }
 
