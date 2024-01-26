@@ -1,6 +1,8 @@
 :root {
     --background-color: #2e2e30;
     --color: #6f6f73;
+    --buy: #c40404;
+    --sell: #038514;
 }
 
 body {
@@ -95,7 +97,29 @@ body {
 }
 
 .main__aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     background-color: var(--background-color)
+}
+
+.search {}
+
+.search__form {}
+
+.search__input {
+    background-color: var(--background-color);
+    border: 1px solid var(--color);
+    color: var(--color);
+    padding: 5px 10px;
+}
+
+.search__input:focus {
+    border-color: (--buy);
+    transition: .4s ease;
 }
 
 .main__section {}
