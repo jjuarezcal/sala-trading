@@ -201,11 +201,12 @@ body {
     background-image: url(../images/border-left-on.png);
     background-position: top right;
     background-repeat: no-repeat;
-    animation-name: example;
+    animation-name: card;
     animation-duration: 3s;
+    cursor: pointer;
 }
 
-@keyframes example {
+@keyframes card {
     from {
         background-color: var(--background-color)
     }
