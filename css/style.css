@@ -167,6 +167,31 @@ body {
     padding: 5px 2px;
 }
 
+.news__article {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background: var(--background-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.news__text {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.news__img {
+    max-width: 50px;
+}
+
+.news__p--date {
+    font-size: 10px;
+}
+
 .main__section {
     display: flex;
     width: 80%;

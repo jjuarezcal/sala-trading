@@ -57,4 +57,7 @@ body {
     .container__userdata {
         background-color: var(--background-color-ligth);
     }
+    .news__article {
+        background: #FFFFFF;
+    }
 }
