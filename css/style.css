@@ -1,3 +1,5 @@
+/* Definidas las variables generales */
+
 :root {
     --background-color: #2e2e30;
     --background-color-secondary: #424244;
@@ -12,10 +14,16 @@ body {
     font-family: var(--tipo-principal);
 }
 
+
+/* Grid principal */
+
 .content {
     display: grid;
     grid-template-rows: auto;
 }
+
+
+/* Comineza la sección de HEADER */
 
 .header {
     display: flex;
@@ -87,6 +95,12 @@ body {
     margin-right: 5px;
 }
 
+
+/* Fin sección HEADER */
+
+
+/* Comienza el contendor principal MAIN */
+
 .main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -100,6 +114,9 @@ body {
     background-color: var(--background-color);
     padding: 20px;
 }
+
+
+/* Barra lateral izquierda */
 
 .aside__search {
     padding: 20px 0px;
@@ -192,6 +209,9 @@ body {
     font-size: 10px;
 }
 
+
+/* Sección central zona principal CONTAINER */
+
 .main__section {
     display: flex;
     width: 80%;
@@ -221,6 +241,9 @@ body {
     animation-duration: 3s;
     cursor: pointer;
 }
+
+
+/* Keyframes para la animación de la card de usuario */
 
 @keyframes card {
     from {
@@ -265,6 +288,9 @@ body {
     animation: border-animation 4s infinite linear;
 }
 
+
+/* Keyframe animación lineas de separación */
+
 @keyframes border-animation {
     0% {
         opacity: 0.3;
@@ -281,7 +307,7 @@ body {
 }
 
 
-/* BARRAS DE PROGRESO */
+/* Barras de progreso  */
 
 .progress__content {
     width: 100%;
@@ -319,11 +345,17 @@ body {
 }
 
 
-/* FIN BARRAS PROGRESO */
+/* Fin Barras de progreso */
+
+
+/* Barra lateral Derecha */
 
 .main__aside--right {
     padding-right: 30px;
 }
+
+
+/* Pie de página FOOTER */
 
 .footer {
     display: grid;
