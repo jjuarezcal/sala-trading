@@ -20,6 +20,7 @@ body {
 .content {
     display: grid;
     grid-template-rows: auto;
+    min-height: 100vh
 }
 
 
@@ -366,8 +367,19 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 1.5rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--background-color);
+    border-top: 1px solid #424244;
+}
+
+.footer__copyright {
+    padding-left: 1.5rem;
+}
+
+.footer__social {
+    padding-right: 1.5rem;
 }
 
 .footer__ul {
