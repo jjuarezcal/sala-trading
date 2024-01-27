@@ -222,7 +222,7 @@ body {
 
 .container__userdata {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 6fr;
     column-gap: 20px;
     background-color: var(--background-color);
     padding: 10px;
