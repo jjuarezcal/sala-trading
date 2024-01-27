@@ -328,18 +328,21 @@ body {
     background: #E44D26;
     height: 100%;
     width: 50%;
+    font-size: 0.8rem;
 }
 
 .progress__bar--green {
     background: #009688;
     height: 100%;
     width: 25%;
+    font-size: 0.8rem;
 }
 
 .progress__bar--blue {
     background: #42A5F5;
     height: 100%;
     width: 14%;
+    font-size: 0.8rem;
 }
 
 .progress__h3 {
