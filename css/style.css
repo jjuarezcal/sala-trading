@@ -127,6 +127,7 @@ body {
     border: 1px solid var(--color);
     color: var(--color);
     padding: 5px 10px;
+    width: 90%;
 }
 
 .search__input:focus {
