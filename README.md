@@ -1,4 +1,4 @@
-# sala-trading temporal: https://jjuarezcal.github.io/sala-trading/
+# sala-trading - https://jjuarezcal.github.io/sala-trading/
 
 
 Sala de Trading Colaborativa 📈💼
