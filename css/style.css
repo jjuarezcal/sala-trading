@@ -225,7 +225,7 @@ body {
     grid-template-columns: 1fr 6fr;
     column-gap: 20px;
     background-color: var(--background-color);
-    padding: 10px;
+    padding: 0.5rem;
     border-radius: 10px;
     margin: 20px 0px;
     background-image: url(../images/border-left.png);
@@ -312,6 +312,7 @@ body {
     font-size: 1.4rem;
     color: #FFFFFF;
     padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
 }
 
 
