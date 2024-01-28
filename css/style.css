@@ -100,6 +100,9 @@ body {
 
 /* Fin sección HEADER */
 
+
+/* Barra lateral izquierda */
+
 .aside {
     grid-area: aside;
     display: flex;
@@ -109,9 +112,6 @@ body {
     background-color: var(--background-color);
     padding: 20px;
 }
-
-
-/* Barra lateral izquierda */
 
 .aside__search {
     padding: 20px 0px;
