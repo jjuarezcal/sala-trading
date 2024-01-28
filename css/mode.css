@@ -6,8 +6,8 @@ Juan rest basic 2022 (◕‿◕)
 /* Estilos por defecto (modo oscuro) */
 
 body {
-    background-color: #1e1f21;
-    color: #CCCCCC;
+    background-color: var(--body-background-mode);
+    color: var(--text-color-primary);
 }
 
 
@@ -44,18 +44,15 @@ body {
         border-top: 1px solid #cececf;
         background-color: #ffffff;
     }
-    .main__aside {
-        background-color: var(--background-color-ligth);
-    }
-    .search__input {
-        background-color: var(--background-color-ligth);
-    }
-    .aside__block {
-        background-color: var(--background-color-ligth);
-        color: var(--color);
-    }
+    .aside,
+    .search__input,
     .container__userdata {
         background-color: var(--background-color-ligth);
+    }
+    .aside__block,
+    .aside__block--right {
+        background-color: var(--background-color-ligth);
+        color: var(--color);
     }
     .news__article {
         background: #FFFFFF;
