@@ -37,7 +37,8 @@ body {
         background-color: rgb(18, 70, 70);
     }
     .menu__li,
-    .footer__li {
+    .footer__li,
+    .userdata__name h4 {
         color: black;
     }
     .footer {
